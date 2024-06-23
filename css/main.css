@@ -272,9 +272,9 @@ a:not([href]):not([tabindex]):hover {
   padding: 10px 23px;
   margin-left: 30px;
   box-shadow: 0px 8px 9px 0px rgba(96, 94, 94, 0.17);
-  border: none; /* Menghilangkan border default */
+  border: none; 
   position: relative;
-  z-index: 1001; /* Menempatkan tombol di atas elemen lainnya */
+  z-index: 1001; 
 }
 
 .btn-signin:hover,
@@ -645,12 +645,6 @@ button:focus {
 }
 .hero-area .contents .btn {
   margin-top: 20px;
-  /* background: #3c96ff !important;  */
-  /* margin-right: 20px;
-  text-transform: uppercase;
-  width: 180px;
-  height: 50px;
-  padding: 15px 15px; */
 }
 .hero-area .contents .btn-border {
   border: 1px solid #fff;
@@ -709,15 +703,12 @@ button:focus {
 }
 
 @media (max-width: 767.98px) {
-  /* .hero-area .contents {
-      margin-top: 10px; 
-      padding-top: 0px;
-    } */
+
   .hero-area .contents {
     padding: 0px 0;
   }
   .hero-area {
-    padding-top: 10px; /* Mengurangi jarak padding pada tampilan mobile */
+    padding-top: 10px; 
   }
   .hero-area .overlay :nth-child(1) {
     height: 10px;
@@ -807,12 +798,6 @@ button:focus {
 .service-item .icon {
   color: #3c96ff;
 }
-/* @media (max-width: 767.98px) {
-      .services .service-item {
-        padding: 100px;
-        margin: 0 10px 30px; 
-      }
-    } */
 
 /* ==========================================================================
    business-plan Section 
@@ -842,40 +827,16 @@ button:focus {
 }
 @media (max-width: 767.98px) {
   #business-plan .business-item-img-wrapper {
-    order: 2; /* Gambar ditampilkan setelah teks pada layar kecil */
+    order: 2; 
   }
 
   #business-plan .business-item-info-wrapper {
-    order: 1; /* Teks ditampilkan sebelum gambar pada layar kecil */
+    order: 1; 
     padding-left: 0;
     padding-top: 20px;
     text-align: center;
   }
 }
-/* Keyframes for the slide-in from top animation */
-/* @keyframes slideInFromTop {
-      0% {
-        transform: translateY(-100%);
-        opacity: 0;
-      }
-      100% {
-        transform: translateY(0);
-        opacity: 1;
-      }
-    } */
-
-/* Initial state for the animation */
-/* .business-item-info {
-      opacity: 0;
-      transform: translateY(-100%);
-      transition: opacity 1s ease-out, transform 1s ease-out;
-    } */
-
-/* Active state when the element is visible */
-/* .business-item-info.visible {
-      opacity: 1;
-      transform: translateY(0);
-    } */
 
 /* ==========================================================================
    Features
@@ -889,7 +850,6 @@ button:focus {
 }
 #features .featured-bg {
   padding: 0 10px;
-  /* background: #fff;  */
 }
 #features .features-text .section-title h3 {
   font-size: 35px;
@@ -915,18 +875,17 @@ button:focus {
   background: #e3fff2;
   width: 100px;
   height: 100px;
-  margin: 12px 30px 0 0; /* Default margin for desktop */
+  margin: 12px 30px 0 0; 
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  border: 1px solid #3c96ff;
-  /* #3c96ff 0%, #2dfbff */
+  border: 1px solid #5abdff;
 }
-#features .feature-item .feature-icon i { 
+#features .feature-item .feature-icon i {
   font-size: 40px;
-  color: #3c96ff;
+  color: #5abdff;
 }
 #features .feature-item h4 {
   font-size: 20px;
@@ -942,9 +901,8 @@ button:focus {
   transition: all 0.8s ease;
 }
 #features .feature-item:hover .feature-icon {
-  background: #3c96ff;
+  background: #5abdff;
   transition: all 0.8s ease;
-  /* #3ecf8e warna hijau*/
 }
 #features .feature-item:hover .feature-icon i {
   color: #fff;
@@ -963,33 +921,33 @@ button:focus {
   }
 
   #features .feature-item .feature-icon {
-    margin: 0 auto 10px; /* Centers the icon and adds margin at the bottom */
-    float: none; /* Remove float */
+    margin: 0 auto 10px; 
+    float: none; 
   }
 
   #features .feature-item .feature-icon i {
-    font-size: 3em; /* Adjust the icon size as needed */
+    font-size: 3em; 
   }
 
   #features .feature-item .feature-info {
-    width: 100%; /* Ensures the text container takes the full width */
+    width: 100%; 
   }
 }
 
 #features .section-header {
-  text-align: center; /* Default alignment for desktop */
+  text-align: center; 
 }
 
 @media (max-width: 767.98px) {
   #features .section-header {
-    text-align: left; /* Alignment for mobile */
+    text-align: left; 
   }
   #features .section-header .section-title,
   #features .section-header .desc-text {
-    text-align: left; /* Ensure text alignment for both title and description */
+    text-align: left; 
   }
   #features .section-header .features-button {
-    text-align: left; /* Ensure text alignment for both title and description */
+    text-align: left; 
   }
 }
 
@@ -1325,19 +1283,17 @@ button:focus {
 #pricing {
   padding-top: 50px;
   padding-bottom: 50px;
-
 }
 
 #pricing .pricing-table {
-  position: relative; /* Tambahkan posisi relatif untuk pricing-table */
+  position: relative;
   padding: 20px;
   border-radius: 25px;
   margin-bottom: 25px;
   border: 1px solid #ccc;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
   transition: all 0.8s ease;
 }
-
 
 #pricing .pricing-table h3 {
   font-size: 20px;
@@ -1349,7 +1305,7 @@ button:focus {
 
 #pricing .pricing-table h4 {
   font-size: 20px;
-  color: #3c96ff;
+  color: #5abdff;
   font-weight: 500;
   text-transform: uppercase;
   margin-bottom: 12px;
@@ -1408,13 +1364,11 @@ button:focus {
   left: 0;
   width: 100%;
   height: 100%;
-  /* background: linear-gradient(to bottom right, rgba(136, 238, 136, 0.6), rgba(108, 158, 108, 0.3)); */
-  /* #5533ff 40%, #25ddf5 */
   background: linear-gradient(to bottom right, #5533ff 0%, #2dfbff 100%);
   clip-path: circle(25% at 10% 10%);
   transition: clip-path 0.5s ease-in-out, opacity 0.5s ease-in-out;
   opacity: 0;
-  z-index: -1; /* Mengatur z-index agar background gradient berada di bawah konten */
+  z-index: -1; 
 }
 
 .pricing-table:hover::after,
@@ -1424,17 +1378,15 @@ button:focus {
 }
 
 .pricing-details {
-  position: relative; /* Tambahkan posisi relatif untuk pricing-details */
+  position: relative; 
   padding: 20px;
-  z-index: 1; /* Atur z-index agar konten pricing-details berada di atas background */
+  z-index: 1; 
 }
-
-
 
 /* CSS untuk desktop */
 .pricing-table:hover .pricing-details h3,
 .pricing-table:hover .pricing-details ul li {
-  color: white !important; /* Warna teks putih saat card di-hover (desktop) */
+  color: white !important; 
 }
 
 .pricing-table:hover .pricing-details h4 {
@@ -1446,7 +1398,7 @@ button:focus {
 @media (max-width: 767.98px) {
   .pricing-table:active .pricing-details h3,
   .pricing-table:active .pricing-details ul li {
-    color: white !important; /* Warna teks putih saat card di-klik (mobile) */
+    color: white !important; 
   }
   .pricing-table:hover .pricing-details h4 {
     color: #85beff !important;
@@ -1571,6 +1523,9 @@ svg {
   padding-top: 50px;
   padding-bottom: 50px;
 }
+.blog .blog-slider {
+  overflow: hidden;
+}
 #blog .blog-item-wrapper {
   border: 1px solid #ddd;
   background-color: #fff;
@@ -1639,7 +1594,7 @@ svg {
   margin-right: 5px;
 }
 .blog-item {
-  margin-bottom: 5px; /* Mengatur jarak bawah antar card */
+  margin-bottom: 5px; 
 }
 .blog-item-wrapper {
   background: #fff;
@@ -1660,7 +1615,7 @@ svg {
   width: 100%;
   height: auto;
   display: block;
-  object-fit: cover; /* Mengatur gambar agar menutupi area tanpa distorsi */
+  object-fit: cover; 
 }
 
 .blog-item-text {
@@ -1701,9 +1656,42 @@ svg {
 
 @media (max-width: 767.98px) {
   .blog-item-wrapper {
-    margin: 0 10px 30px; /* Menambahkan margin kanan dan kiri pada layar kecil */
+    margin: 0 10px 30px; 
   }
+    .blog .swiper-pagination {
+      margin-top: 70px; 
+    }
+    .swiper-pagination .swiper-pagination-bullet {
+      margin-top: 40px; 
+    }
+    .swiper-pagination .swiper-pagination-bullet-active {
+      margin-top: 40px; 
+    }
+    .blog-item-wrapper {
+      margin-bottom: 30px;
+    }
+    #blog .blog-item-wrapper {
+      margin-bottom: 30px;
+    }
 }
+
+.blog .swiper-pagination {
+  margin-top: 80px;
+  position: relative;
+}
+.swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid #5777ba;
+}
+
+.swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #5777ba;
+}
+
+
 
 /* ==========================================================================
    Blog index2 version
@@ -1972,14 +1960,14 @@ svg {
   min-height: 52px;
   padding: 0px 0 0 28px;
   font-size: 16px;
-  border-radius: 30px;
+  border-radius: 10px;
   color: #5e629c;
 }
 
 #contact form#contactForm textarea {
   padding: 15px 0 0 28px;
   font-size: 16px;
-  border-radius: 30px;
+  border-radius: 10px;
   color: #5e629c;
 }
 
@@ -2086,24 +2074,15 @@ svg {
   transition: all 300ms;
 }
 
-/* Custom CSS for centering elements on mobile */
 
 @media (max-width: 576px) {
   .footer-logo,
   .widget,
   .contact {
     text-align: center;
-    margin-bottom: 20px; /* Optional: Add some bottom margin for better spacing */
-    /* background: linear-gradient(95deg, #5533ff 40%, #25ddf5 100%); */
+    margin-bottom: 20px; 
   }
 }
-/* @media (max-width: 576px) {
-      
-      #footer-Content,
-      .widget {
-        background: linear-gradient(95deg, #5533ff 40%, #25ddf5 100%);
-      }
-    } */
 
 /* Stats */
 .stats-section {
@@ -2116,7 +2095,6 @@ svg {
   padding-bottom: 10px;
 }
 
-/* 95deg, #5533ff 40%, #25ddf5 100% */
 .single-stat {
   padding: 20px;
 }
@@ -2129,7 +2107,6 @@ svg {
   color: white;
 }
 
-/* CSS untuk styling tabel colocation server */
 .row-pricing-tables {
   margin-top: 30px;
   overflow-x: auto;
@@ -2151,19 +2128,16 @@ svg {
 
 .row-pricing-tables th {
   background-color: #5533ff;
-  /* background: linear-gradient(95deg, #5533ff 40%, #25ddf5 100%);
-      background: linear-gradient(to bottom right, #3c96ff 0%, #2dfbff 100%); */
-  color: #eae8e8; /* Warna teks hitam untuk header kolom */
-  font-weight: bold; /* Tulisan tebal untuk header kolom */
-  /* border: 1px solid #000; Border hitam untuk header kolom */
+  color: #eae8e8; 
+  font-weight: bold; 
 }
 
 .row-pricing-tables td {
-  color: #555; /* Warna teks agak keabu-abuan untuk isi tabel */
+  color: #555; 
 }
 
 .row-pricing-tables tbody tr:nth-child(even) {
-  background-color: #f8f9fa; /* Warna latar belakang agak keabu-abuan untuk baris genap */
+  background-color: #f8f9fa; 
 }
 
 .row-pricing-tables button {
@@ -2756,13 +2730,13 @@ svg {
 }
 
 .modal-sm {
-  max-width: 300px;
+  max-width: 200px;
 }
 .modal-dialog {
-  max-width: 400px; /* Ukuran modal lebih kecil */
+  max-width: 400px; 
 }
 .modal-title {
-  font-size: 1.5rem; /* Ukuran tulisan title lebih kecil */
+  font-size: 1.5rem; 
 }
 .form-group {
   position: relative;
@@ -2785,10 +2759,15 @@ svg {
 
 .input-container .fa-eye {
   position: absolute;
-  right: 10px; /* Sesuaikan jarak dari sisi kanan input */
+  right: 10px; 
   cursor: pointer;
 }
 
 .input-container input {
-  padding-right: 30px; /* Biarkan ruang untuk ikon mata */
+  padding-right: 30px; 
+}
+
+.modal-header .modal-title {
+  font-size: 25px; 
+  font-weight: bold; 
 }
