@@ -528,7 +528,7 @@ button:focus {
   font-size: 16px;
   padding: 8px 0px;
   margin-left: 20px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
   position: relative;
   font-weight: 500;
 }
@@ -2108,7 +2108,7 @@ svg {
 }
 
 .row-pricing-tables {
-  margin-top: 30px;
+  margin-top: 10px;
   overflow-x: auto;
 }
 
@@ -2771,3 +2771,10 @@ svg {
   font-size: 25px; 
   font-weight: bold; 
 }
+/* .horizontal-line {
+  border: none;
+  border-top: 3px solid #5abdff; 
+  margin: 0 auto; 
+  width: 10%; 
+  max-width: 400px; 
+} */
