@@ -1972,7 +1972,7 @@ svg {
 }
 
 #contact form#contactForm .form-control:focus {
-  border: 1px solid #3ecf8e;
+  border: 1px solid #5abdff;
   outline: none;
   box-shadow: none;
   background: #e5fff3;
