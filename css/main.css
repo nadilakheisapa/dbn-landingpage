@@ -872,7 +872,7 @@ button:focus {
   transition: all 0.8s ease;
 }
 #features .feature-item .feature-icon {
-  background: #e3fff2;
+  background: #fff;
   width: 100px;
   height: 100px;
   margin: 12px 30px 0 0; 
@@ -1346,14 +1346,14 @@ button:focus {
 
 .pricing-table {
   overflow: hidden;
-  border: 3px solid #e6e6e6;
+  border: 3px solid #fff;
   border-radius: 10px;
   transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
 .pricing-table:hover,
 .pricing-table:active {
-  background-color: #dfffe2;
+  background-color: #fff;
   transform: translateY(-10px);
 }
 

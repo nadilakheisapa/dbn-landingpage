@@ -81,6 +81,9 @@
     padding: 15px 0px;
     padding-bottom: 80px;
   }
+  #business-plan .business-item-info {
+    padding: 0 10px;
+  }
 
   .feature-info {
     width: 60%;
@@ -167,8 +170,6 @@
 }
 
 
-
-
 @media (min-width: 768px) and (max-width: 991px) {
   .bg-inverse {
     background: linear-gradient(95deg, #5533ff 40%, #25ddf5 100%);
@@ -178,12 +179,14 @@
     font-size: 25px;
   }
 
-  #business-plane .business-item-info p {
+  #business-plan .business-item-info p {
     font-size: 15px;
     line-height: 24px;
     margin-bottom: 17px;
   }
-
+  #business-plan .business-item-info {
+    padding: 0 10px;
+  }
   .hero-area .contents h2 {
     color: #fff;
     font-size: 40px !important;
