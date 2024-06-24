@@ -1312,7 +1312,7 @@ button:focus {
 }
 
 #pricing .pricing-table h1 {
-  color: #3ecf8e;
+  color: #5abdff;
   font-size: 50px;
   font-weight: 500;
   position: relative;
@@ -1339,7 +1339,7 @@ button:focus {
 }
 
 #pricing .pricing-table:hover {
-  border: 1px solid #3ecf8e;
+  border: 1px solid #5abdff;
   box-shadow: 0px 0px 25px 0px rgba(95, 95, 95, 0.24);
   transition: all 0.4s ease;
 }

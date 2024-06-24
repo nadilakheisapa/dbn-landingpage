@@ -445,7 +445,13 @@
     margin-bottom: 10px;
     margin-top: 10px;
   }
-
+  #features .feature-item .feature-icon i {
+    color: #5abdff;
+  }
+  #features .feature-item:hover .feature-icon {
+    background: #5abdff;
+    transition: all 0.8s ease;
+  }
   #features .feature-item p {
     font-size: 15px;
     display: block;
