@@ -218,8 +218,8 @@ a:not([href]):not([tabindex]):hover {
   border-width: 1px;
   cursor: pointer;
   background-color: transparent;
-  border-color: #3ecf8e;
-  color: #3ecf8e;
+  border-color: #5abdff;
+  color: #5abdff;
   width: 160px;
   height: 50px;
   padding: 14px 15px;
@@ -232,8 +232,8 @@ a:not([href]):not([tabindex]):hover {
 
 .btn-border-filled {
   cursor: pointer;
-  background-color: #3ecf8e;
-  border: 1px solid #3ecf8e;
+  background-color: #5abdff;
+  border: 1px solid #5abdff;
   color: #fff;
   box-shadow: 0px 8px 9px 0px rgba(96, 94, 94, 0.17);
   width: 180px;
@@ -648,7 +648,7 @@ button:focus {
 }
 .hero-area .contents .btn-border {
   border: 1px solid #fff;
-  color: #3ecf8e !important;
+  color: #5abdff !important;
   -webkit-box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
   width: 180px;
@@ -658,7 +658,7 @@ button:focus {
 }
 .hero-area .contents .btn-border:hover {
   background: #fff;
-  color: #3ecf8e;
+  color: #5abdff;
 }
 .hero-area .intro-img {
   /* padding-top: 60px; */
@@ -737,7 +737,7 @@ button:focus {
   transition: all 0.8s ease;
 }
 #services .services-item:hover {
-  border: 1px solid #3ecf8e;
+  border: 1px solid #5abdff;
   box-shadow: 0px 0px 25px 0px rgba(95, 95, 95, 0.24);
   -moz-transition: all 0.4s ease;
   -webkit-transition: all 0.4s ease;
@@ -757,7 +757,7 @@ button:focus {
 }
 #services .services-item .icon i {
   font-size: 40px;
-  color: #3ecf8e;
+  color: #5abdff;
   position: absolute;
   left: 0;
   right: 0;
@@ -923,10 +923,12 @@ button:focus {
   #features .feature-item .feature-icon {
     margin: 0 auto 10px; 
     float: none; 
+    border: 1px solid #5abdff;
   }
 
   #features .feature-item .feature-icon i {
     font-size: 3em; 
+    color: #5abdff;
   }
 
   #features .feature-item .feature-info {
@@ -1113,7 +1115,7 @@ button:focus {
 #showcase .showcase-slider .owl-controls.clickable .owl-page:hover span {
   filter: Alpha(Opacity=100);
   opacity: 1;
-  background: #3ecf8e;
+  background: #5abdff;
 }
 #showcase .showcase-slider .owl-controls .owl-page span {
   display: block;
@@ -1125,7 +1127,7 @@ button:focus {
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
-  background: #3ecf8e;
+  background: #5abdff;
 }
 #showcase .showcase-slider .owl-controls .active span {
   width: 15px;
@@ -1167,7 +1169,7 @@ button:focus {
   font-size: 20px;
 }
 #showcase .showcase-slider .screenshot-thumb > .hover-content {
-  background-color: #3ecf8e;
+  background-color: #5abdff;
   opacity: 0.9;
   height: 85%;
   left: 0;
@@ -1462,10 +1464,10 @@ svg {
   background: #fff;
 }
 #team .single-team .team-social-icons ul.social-list li:hover {
-  background: #3ecf8e;
+  background: #5abdff;
   -moz-transition: all 0.4s ease;
   -webkit-transition: all 0.4s ease;
-  border-color: #3ecf8e;
+  border-color: #5abdff;
   transition: all 0.4s ease;
 }
 #team .single-team .team-social-icons ul.social-list li:hover a {
@@ -1478,7 +1480,7 @@ svg {
   transition: all 0.4s ease;
 }
 #team .single-team .team-social-icons ul.social-list li a i {
-  color: #3ecf8e;
+  color: #5abdff;
   font-size: 16px;
 }
 #team .single-team:hover {
@@ -2029,7 +2031,7 @@ svg {
   height: 38px;
   color: #fff;
   top: 0;
-  background: #3ecf8e;
+  background: #5abdff;
   display: block;
   padding: 9px 20px;
   font-size: 18px;
