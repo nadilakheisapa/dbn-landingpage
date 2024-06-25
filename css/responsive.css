@@ -85,6 +85,7 @@
     padding: 0 10px;
   }
 
+
   .feature-info {
     width: 60%;
   }
@@ -175,18 +176,19 @@
     background: linear-gradient(95deg, #5533ff 40%, #25ddf5 100%);
   }
 
-  #business-plan .business-item-info h3 {
+  #business-plan .business-item-info h3 { 
     font-size: 25px;
   }
 
   #business-plan .business-item-info p {
-    font-size: 15px;
+    font-size: 18px;
+    margin-top: 20px;
     line-height: 24px;
     margin-bottom: 17px;
-  }
-  #business-plan .business-item-info {
+  }  
+  /* #business-plan .business-item-info {
     padding: 0 10px;
-  }
+  } */
   .hero-area .contents h2 {
     color: #fff;
     font-size: 40px !important;

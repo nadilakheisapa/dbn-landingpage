@@ -1431,6 +1431,14 @@ svg {
     font-size: calc(60px + 4vw);
   }
 }
+/* @media (max-width: 768px) {
+  .gtco-text {
+    font-size: calc(28px + 2vw);
+  }
+  .gtco-number {
+    font-size: calc(60px + 4vw);
+  }
+} */
 
 /* ==========================================================================
    team section
